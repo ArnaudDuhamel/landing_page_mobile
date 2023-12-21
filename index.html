@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
     <body>
-        <header>
-            <nav>
+        <header id="header">
+            <nav id="nav-bar">
                 <ul>
+                    <li id="header-img-container"><img id="header-img" src="images/orange_slice.png" /></li>
                     <li><div class="logo_container"><div class="logo">Appland</div></div></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Overview</a></li>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#overview">Overview</a></li>
+                    <li><a class="nav-link" href="#demo">Demo</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Feedbacks</a></li>
                     <li><a href="#">Download</a></li>
@@ -23,7 +25,7 @@
         </header>
         <main>
             <h1>Download the best financial app</h1>
-            <section class="description_section">
+            <section id="features" class="description_section">
                 <div class="description"><svg class="done_icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg><div>
                     <p class="description_title">Checking your credit score</p>
                     <p class="description_content">A complete about-face in its economy is Amsterdams progressive.</p>
@@ -41,7 +43,7 @@
                     <p class="description_content">Once bank accounts, credit cards, and monthly bills are synced.</p>
                 </div></div>
             </section>
-            <section class="boxes_section">
+            <section id="overview" class="boxes_section">
                 <div class="box">
                     <p class="box_data one">2M</p>
                     <p class="box_text">DOWNLOADS</p>
@@ -114,7 +116,7 @@
                     <p class="small_box_description">Spent Today</p>
                 </div>
             </section>
-            <section class="smartphone_section">
+            <section id="demo" class="smartphone_section">
                 <div class="smartphone">
                     <div class="app_bar">
                         <div class="app_bar_left">
@@ -147,7 +149,7 @@
                                 </div>
                             <p class="app_bar_text">$200</p>
                         </div>
-                        <img src="images/portrait_image.png" alt="random_portrait" />
+                        <img src="https://github.com/ArnaudDuhamel/landing_page_mobile/assets/113102976/41cad0f8-95d7-470a-9095-1ac8baeb5131" alt="random_portrait" />
                     </div>
                 <div class="rolling_menu">
                     <div class="rolling_box one">
@@ -305,6 +307,11 @@
                     </div>
                 </div>
             </section>
+            <iframe id="video" src="https://www.youtube.com/embed/yKCAna4SrOA"></iframe>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" name="email" placeholder="Enter your email adress to subscribe to our newsletter" type="email" required/>
+                <input id="submit" type="submit" value="Subscribe" />
+            </form>
             <footer></footer>
         </main>
     </body>
