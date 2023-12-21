@@ -12,10 +12,7 @@ body {
 
 header {
     margin-top: 10px;
-    top: 0;
-    position: sticky;
     background-color: #F9F9F9;
-    z-index: 30;
 }
 
 p {
@@ -904,3 +901,9 @@ footer {
     padding: 10px;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 720px) {
+    h1 {
+      font-size: 45px;
+    }
+  }
