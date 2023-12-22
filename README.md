@@ -1257,6 +1257,6 @@ I tried to replicate this page, but for mobile:
 
 <img src="images/app_landing_web_ui.png" height="600px" width="800px" />
 
-## final product
+## Final product
 
 <img src="images/final_product.png" />
