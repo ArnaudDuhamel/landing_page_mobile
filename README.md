@@ -1,6 +1,6 @@
 # Product Landing Page
 
-This project is the fourth to obtain the Responsive Web Design certification from Free Code Camp.
+This is the fourth project done to obtain the Free Code Camp Responsive Web Design certification.
 
 I tried to replicate this page, but for mobile: 
 
