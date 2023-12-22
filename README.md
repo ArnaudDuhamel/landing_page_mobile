@@ -4,7 +4,7 @@ This is the fourth project done to obtain the Free Code Camp Responsive Web Desi
 
 There was a requirement for the certification project to have a navigation bar that would always stay at the top of the viewport. It is removed here because, since the navigation bar is vertical, it would be taking way too much space.
 
-[**Code Pen link**](https://codepen.io/Arnaud-Duhamel/full/vYQozjK)
+[**Code Pen link**](https://codepen.io/Arnaud-Duhamel/full/wvOvybq)
 
 <details>
   <summary>HTML code</summary>
